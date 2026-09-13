@@ -4,7 +4,7 @@
 // Setelah Google Apps Script dideploy sebagai Web App, isi URL di bawah.
 // Contoh: https://script.google.com/macros/s/AKfycb.../exec
 const API_URL =
-  "https://script.google.com/macros/s/AKfycbx7NyYYIaGDR-m2OEr4hqVyKT8pznZBIcFAy5DSKsq58V8hOw8JBSgcrud64lOzvc0d/exec";
+  "https://script.google.com/macros/s/AKfycbzW4d5VCO-8vME2mfvvt71Bj8AHHSSfueQ4hwx8mW9UpOpXLMHsG5Y3gfj8vNiwmfKx/exec";
 
 const $ = (id) => document.getElementById(id);
 const rupiah = (n) =>
