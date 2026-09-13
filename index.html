@@ -11,7 +11,7 @@
     <header class="topbar">
       <div>
         <h1>Dashboard Penjualan Pakaian</h1>
-        <p>Asera Thrif.id</p>
+        <p>Kelola produk, stok terjual, margin, dan laba bersih.</p>
       </div>
       <button id="openFormBtn" class="btn btn-primary">+ Tambah Produk</button>
     </header>
@@ -35,8 +35,10 @@
             <tr>
               <th>Foto</th>
               <th>Nama Pakaian</th>
+              <th>Kategori</th>
               <th>Harga Beli</th>
               <th>Harga Jual</th>
+              <th>Stok</th>
               <th>Terjual</th>
               <th>Margin/pcs</th>
               <th>Laba Bersih</th>
@@ -79,12 +81,20 @@
 
         <div class="form-grid">
           <div class="form-group">
+            <label for="kategori">Kategori</label>
+            <input id="kategori" type="text" placeholder="Contoh: Kaos">
+          </div>
+          <div class="form-group">
             <label for="hargaBeli">Harga Beli / pcs</label>
             <input id="hargaBeli" type="number" min="0" required>
           </div>
           <div class="form-group">
             <label for="hargaJual">Harga Jual / pcs</label>
             <input id="hargaJual" type="number" min="0" required>
+          </div>
+          <div class="form-group">
+            <label for="stok">Stok</label>
+            <input id="stok" type="number" min="0" value="0" required>
           </div>
           <div class="form-group">
             <label for="jumlahTerjual">Jumlah Terjual</label>
